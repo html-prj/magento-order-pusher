@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Picqer_Webhook</name>
+    <version>1.0.1</version>
+    <stability>stable</stability>
+    <license>MIT</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Sync your Magento orders realtime to Picqer.</summary>
+    <description>This extension add realtime sync of your orders to Picqer Online Inventory Software.</description>
+    <notes>Changed the event used for detecting order saves in Magento.</notes>
+    <authors><author><name>Stephan Groen</name><user>stephangroen</user><email>stephan@picqer.com</email></author></authors>
+    <date>2015-08-18</date>
+    <time>08:14:44</time>
+    <contents><target name="magecommunity"><dir name="Picqer"><dir name="Webhook"><dir name="Helper"><file name="Data.php" hash="135ad557d51b2928099f9d0c368e22cf"/></dir><dir name="Model"><file name="Active.php" hash="38950d5edfa800a68cf52689e136d11c"/><file name="Orderstate.php" hash="00c325a4bcdaef1615a4063596c21f01"/><dir name="Sales"><dir name="Order"><file name="Webhook.php" hash="50b725df5e9a8bf849bd8b74e6ee196b"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="1104241c134b9903cef02f438cef3f34"/><file name="system.xml" hash="60824bb96ac26ee22737098ffed1c49b"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Picqer_Webhook.xml" hash="718b9dcfc1ec253e58ed71d61f6f7d6a"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.4.0</min><max>5.6.11</max></php><extension><name>curl</name><min/><max/></extension></required></dependencies>
+</package>

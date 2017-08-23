@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <picqer translate="label" module="picqer_webhook">
+            <label>Picqer</label>
+            <sort_order>99999</sort_order>
+        </picqer>
+    </tabs>
+    <sections>
+        <picqer_webhook_options translate="label" module="picqer_webhook">
+            <label>Webhooks</label>
+            <tab>picqer</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general_settings translate="label">
+                    <label>General settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <picqer_webhook_active>
+                            <label>Active</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>picqer_webhook/active</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </picqer_webhook_active>
+                        <picqer_order_state>
+                            <label>Order state to push</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>picqer_webhook/orderstate</source_model>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </picqer_order_state>
+                        <picqer_magento_key>
+                            <label>Connection key</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </picqer_magento_key>
+                        <picqer_domain>
+                            <label>Picqer domain</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>4</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </picqer_domain>
+                    </fields>
+                </general_settings>
+            </groups>
+        </picqer_webhook_options>
+    </sections>
+</config>

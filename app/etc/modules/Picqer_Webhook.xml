@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Picqer_Webhook>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Mage_Api/>
+            </depends>
+        </Picqer_Webhook>
+    </modules>
+</config>
