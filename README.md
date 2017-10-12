@@ -1,3 +1,3 @@
 # magento-extension
 
-Magento Extensions for Picqer. Get them via Magento Connect: http://www.magentocommerce.com/magento-connect/catalogsearch/result/?q=picqer&pl=0
+Magento Extension for Picqer. Download from [the releases tab](https://github.com/picqer/magento-order-pusher/releases) and upload to your Magento shop.
